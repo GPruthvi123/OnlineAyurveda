@@ -16,6 +16,9 @@ import { DashboardComponent } from './components/admin/dashboard/dashboard.compo
 import { UserDashboardComponent } from './components/user/user-dashboard/user-dashboard.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SignupComponent } from './components/signup/signup.component';
+import { ProfileComponent } from './components/profile/profile.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { WelcomeComponent } from './components/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { SignupComponent } from './components/signup/signup.component';
     DashboardComponent,
     UserDashboardComponent,
     FooterComponent,
-    SignupComponent
+    SignupComponent,
+    ProfileComponent,
+    SidebarComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
